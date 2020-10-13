@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2310 박서은"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/id_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:textSize="30sp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="id를 입력하시오"
+        android:textSize="30sp"
+        android:layout_marginLeft="50dp"
+        />
+    <TextView
+        android:id="@+id/pass_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:textSize="30sp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호를 입력하시오"
+        android:textSize="30sp"
+        android:layout_marginLeft="50dp"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="로그인"
+        android:textSize="50dp"
+        android:backgroundTint="#FF9800"
+        />
+
+</LinearLayout>

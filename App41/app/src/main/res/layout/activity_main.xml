@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LynearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="성별 선택" />
+    <RadioButton
+        android:id ="@+id/female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "여성"/>
+    <RadioButton
+        android:id = "@+id/male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="남성"/>
+    -->
+    <Button
+        android:id = "@+id/btn1"
+        android:background="#FFEB3B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼입니다."/>
+</LynearLayout>
